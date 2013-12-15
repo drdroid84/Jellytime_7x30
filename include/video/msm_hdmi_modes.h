@@ -208,11 +208,7 @@ struct msm_hdmi_mode_timing_info {
 static inline void MSM_HDMI_MODES_INIT_TIMINGS(
 	struct msm_hdmi_mode_timing_info *lut)
 {
-<<<<<<< HEAD
-	int i;
-=======
   uint32_t i;
->>>>>>> d8447da... drivers/gpu: update to CAF jb_vanilla adreno drivers
 
 	for (i = 0; i < HDMI_VFRMT_MAX; i++) {
 		struct msm_hdmi_mode_timing_info mode = VFRMT_NOT_SUPPORTED(i);
@@ -334,7 +330,3 @@ static inline const char *msm_hdmi_mode_2string(uint32_t mode)
 	}
 }
 #endif /* __MSM_HDMI_MODES_H__ */
-<<<<<<< HEAD
-
-=======
->>>>>>> d8447da... drivers/gpu: update to CAF jb_vanilla adreno drivers
